@@ -14,13 +14,13 @@ class examen extends BaseController{
 
         $rows = "";
         foreach ($result as $examens) {
-            $rows .= "<tr>
+            /*$rows .= "<tr>
                         <td>$examens->voornaam</td>
                         <td>$examens-></td>
                         <td>$examens-></td>
                         <td>$examens-></td>
                         <td>$examens-></td>
-                        <td>$examens-></td>"
+                        <td>$examens-></td>"*/
         } 
     }
 }
