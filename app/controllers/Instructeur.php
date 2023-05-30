@@ -37,7 +37,7 @@ class Instructeur extends BaseController
             'rows' => $rows
         ];
 
-        $this->view('Instructeur/overzichtinstructeur', $data);
+        $this->view('instructeur/overzichtinstructeur', $data);
     }
 
     public function overzichtVoertuigen($Id)
