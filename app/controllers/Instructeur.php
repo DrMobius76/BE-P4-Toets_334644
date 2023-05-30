@@ -33,7 +33,7 @@ class Instructeur extends BaseController
         }
         
         $data = [
-            'title' => 'Instructeurs in dienst',
+            'title' => 'Overzicht Afgenomen Examens Examinatoren',
             'rows' => $rows
         ];
 
